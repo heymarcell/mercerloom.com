@@ -4,8 +4,6 @@ import { FiScissors, FiDroplet, FiPlay, FiCheckCircle, FiStar, FiEye, FiHeart } 
 import Header from './Header';
 
 export default function Home() {
-  const accent = '#9146FF'; // Avid purple
-
   useEffect(() => {
     const observerOptions = {
       threshold: 0.1,
@@ -65,7 +63,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-white text-black font-worksans antialiased overflow-x-hidden">
-      <Header accent={accent} />
+      <Header />
 
       {/* Hero Section */}
       <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">

@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-interface HeaderProps {
-  accent: string;
-}
-
-const Header: React.FC<HeaderProps> = ({ accent }) => {
+const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 

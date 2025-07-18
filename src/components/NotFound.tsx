@@ -7,11 +7,9 @@ interface NotFoundProps {
 }
 
 export default function NotFound({ pageName }: NotFoundProps) {
-  const accent = '#9146FF';
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-800 via-gray-900 to-gray-900 text-white font-worksans antialiased">
-      <Header accent={accent} />
+      <Header />
       
       <div className="flex items-center justify-center min-h-screen px-4">
         <div className="text-center max-w-2xl mx-auto">

@@ -1,0 +1,19 @@
+name = "mercerloom"
+compatibility_date = "2024-12-01"
+
+[[routes]]
+pattern = "mercerloom.com"
+zone_name = "mercerloom.com"
+
+[[routes]]
+pattern = "www.mercerloom.com"
+zone_name = "mercerloom.com"
+
+[build]
+command = "pnpm build"
+cwd = "."
+watch_dir = "src"
+
+[build.upload]
+format = "service-worker"
+dir = "dist"

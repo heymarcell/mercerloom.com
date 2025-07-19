@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .bg-circle { fill: #9146FF; }
+    .logo-text { fill: #FFFFFF; }
+    .accent-dot { fill: #FFFFFF; }
+    
+    @media (prefers-color-scheme: dark) {
+      .bg-circle { fill: #9146FF; }
+      .logo-text { fill: #FFFFFF; }
+      .accent-dot { fill: #F9FAFB; }
+    }
+    
+    @media (prefers-color-scheme: light) {
+      .bg-circle { fill: #1F2937; }
+      .logo-text { fill: #FFFFFF; }
+      .accent-dot { fill: #9146FF; }
+    }
+  </style>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" class="bg-circle"/>
+  
+  <!-- M & L letters -->
+  <text x="50" y="38" class="logo-text" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16">M</text>
+  <text x="50" y="58" class="logo-text" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16">L</text>
+  
+  <!-- Accent dot -->
+  <circle cx="65" cy="32" r="3" class="accent-dot"/>
+</svg>
